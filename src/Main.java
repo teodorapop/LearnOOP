@@ -44,9 +44,17 @@ public class Main {
         Student student3 = new Student(3,"Andrei",7.6);
 
         System.out.println(student3.id);
-        
-        // egalez un student cu alt student
+
+        // one student is equal to another
+
         Student random = new Student(student3);
+        System.out.println(random.name);
+
+        Student one = new Student();
+        Student two = one;
+
+        one.name = "One";
+        System.out.println(two.name);
 
     }
 
