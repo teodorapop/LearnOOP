@@ -50,11 +50,24 @@ public class Main {
         Student random = new Student(student3);
         System.out.println(random.name);
 
+        // one and two are pointing to the same place in memory
+        // so if I change something in one, the change will also apply in two
         Student one = new Student();
         Student two = one;
 
         one.name = "One";
         System.out.println(two.name);
+
+        // final word for Objects
+
+        // you can do this
+        final Student four = new Student(4, "Four", 9.9);
+        four.name = "Four new name";
+        System.out.println(four.name);
+
+        // when a non primitive is final you can't reassign it
+        // four = student3;
+
 
     }
 
