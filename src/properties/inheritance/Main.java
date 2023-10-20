@@ -39,8 +39,8 @@ public class Main {
         box3.greeting(); // this will call the method in parent class !!!
 
         BoxWeight box4 = new BoxWeight();
-        box4.greeting(); // only now, if I have a static method in BoxWeight will call it
-                         // but if there is no method will call the method in parent
+        box4.greeting(); // static method in BoxWeight -> will call it
+                         // no method -> will call the method in parent
         BoxWeight.greeting(); // same as above
 
         // SO YOU CAN INHERIT, BUT YOU CANNOT OVERRIDE :)
