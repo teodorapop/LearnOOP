@@ -33,5 +33,19 @@ public class Main {
         box2.greeting(); // this will work, but is static so does not require an object
         Box.greeting(); // correct way to call it
 
+        // but what if I have a static method greeting() in the child class ?
+        // the method from parent class will always run, no matter which object will call it
+        Box box3 = new BoxWeight();
+        box3.greeting(); // this will call the method in parent class !!!
+
+        BoxWeight box4 = new BoxWeight();
+        box4.greeting(); // only now, if I have a static method in BoxWeight will call it
+                         // but if there is no method will call the method in parent
+        BoxWeight.greeting(); // same as above
+
+        // SO YOU CAN INHERIT, BUT YOU CANNOT OVERRIDE :)
+
+
+
     }
 }

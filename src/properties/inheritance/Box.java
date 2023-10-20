@@ -39,6 +39,7 @@ public class Box {
     }
 
     // what if we have a static method ?
+    // this method cannot be overrided in the child class
     static void greeting(){
         System.out.println("Hey, I am in Box class, Greetings!");
     }
