@@ -28,5 +28,10 @@ public class Main {
 
         BoxPrice box = new BoxPrice(5,8,200);
 
+        //call the static method
+        Box box2 = new Box();
+        box2.greeting(); // this will work, but is static so does not require an object
+        Box.greeting(); // correct way to call it
+
     }
 }

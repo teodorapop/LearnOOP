@@ -38,5 +38,10 @@ public class Box {
         System.out.println("Running the box");
     }
 
+    // what if we have a static method ?
+    static void greeting(){
+        System.out.println("Hey, I am in Box class, Greetings!");
+    }
+
 
 }
