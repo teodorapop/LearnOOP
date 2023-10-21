@@ -4,6 +4,12 @@ public interface A {
 
     void fun();
 
+    // static interface methods should always have a body
+    // call via the interface: A.greeting()
+    static void greeting(){
+        System.out.println("greeting");
+    }
+
 
     // The default method cannot be overridden when a class (Main) implements multiple interfaces (A, B)
     //    default void funn(){
