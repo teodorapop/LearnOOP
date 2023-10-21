@@ -1,5 +1,6 @@
 package staticExample;
 
+
 public class Main {
     public static void main(String[] args) {
         Human kunal = new Human(22, "Kunal", 1000, false);
@@ -14,6 +15,7 @@ public class Main {
         // but if I create a main object this will work
         Main main = new Main();
         main.greeting1();
+
 
     }
 

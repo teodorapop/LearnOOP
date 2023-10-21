@@ -43,7 +43,7 @@ public class Main {
                          // no method -> will call the method in parent
         BoxWeight.greeting(); // same as above
 
-        // SO YOU CAN INHERIT, BUT YOU CANNOT OVERRIDE :)
+        // SO YOU CAN "INHERIT", BUT YOU CANNOT OVERRIDE :)
 
 
 
