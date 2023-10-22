@@ -73,6 +73,9 @@ public class CustomArrayList {
 
         System.out.println(list);
 
+        ArrayList<Integer> list2 = new ArrayList<>();
+//        list2.add("adeasfesa");
+
 
     }
 }
