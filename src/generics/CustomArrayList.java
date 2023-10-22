@@ -70,6 +70,7 @@ public class CustomArrayList {
         list.add(4);
         list.add(9);
 
+
         System.out.println(list);
 
 
